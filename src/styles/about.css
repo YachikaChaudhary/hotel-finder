@@ -1,0 +1,39 @@
+/*ABOUT AND CONTACT */
+
+/* COMMON SECTION STYLE */
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* GLASS EFFECT */
+.glass-section {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  padding: 40px;
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.glass-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(128, 0, 255, 0.25);
+}
+
+/* TEXT */
+.glass-section h2 {
+  margin-bottom: 15px;
+}
+
+.glass-section p {
+  opacity: 0.9;
+  font-size: 15px;
+}
